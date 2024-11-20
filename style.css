@@ -11,6 +11,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
 }
 
 .heading {
@@ -94,4 +95,15 @@ body {
   border-top: 4px solid hsl(212, 86%, 64%);
   grid-column: 3/4;
   grid-row: 1/4;
+}
+
+@media (max-width: 1120px) {
+  .four-cards {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
 }
