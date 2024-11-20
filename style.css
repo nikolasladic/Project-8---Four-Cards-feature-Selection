@@ -11,13 +11,12 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
 }
 
 .heading {
   align-self: center;
   width: 540px;
-  padding-top: 54px;
+  padding-top: 80px;
   position: relative;
 }
 
@@ -38,7 +37,7 @@ body {
 
 .title-bio {
   text-align: center;
-  color: #4d4f62;
+  color: hsl(229, 6%, 66%);
   font-size: 15px;
   line-height: 25px;
   padding-top: 16px;
@@ -64,6 +63,10 @@ body {
   border-radius: 8px;
   box-shadow: 2px 2px 30px hsl(229, 6%, 66%);
   padding: 32px;
+}
+
+.card-use {
+  color: hsl(229, 6%, 66%);
 }
 
 .card-title {
